@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:uideviagem/widgets/post_app_bar.dart';
+import 'package:uideviagem/widgets/post_bottom_bar.dart';
 
 class PostScreen extends StatelessWidget {
 
@@ -18,9 +19,10 @@ class PostScreen extends StatelessWidget {
           child: const Scaffold(
             backgroundColor: Colors.transparent,
             appBar: PreferredSize(
-              preferredSize: Size.fromHeight(80),
+              preferredSize: Size.fromHeight(90),
               child: PostAppBar(),
             ),
+            bottomNavigationBar: PostBottomBar(),
           ),       
        );
   }
