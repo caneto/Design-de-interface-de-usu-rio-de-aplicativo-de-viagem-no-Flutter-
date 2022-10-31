@@ -29,10 +29,9 @@ class _MyAppState extends State<MyApp> {
       debugShowCheckedModeBanner: false,
       title: 'Ui de Viagem',
       theme: ThemeData(
-         primarySwatch: Colors.blue,
-         scaffoldBackgroundColor: Color(0xFFEDF2F6),
+         scaffoldBackgroundColor: const Color(0xFFEDF2F6),
       ),
-      home: WelcomeScreen(),
+      home: const WelcomeScreen(),
     );
   }
 }
