@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'home_page.dart';
+
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({Key? key}) : super(key: key);
 
@@ -41,6 +43,36 @@ class WelcomeScreen extends StatelessWidget {
                     letterSpacing: 1.5,
                   ),
                 ),
+                const SizedBox(height: 2,),
+                Text(
+                  "Lorem ipsum dolor sit amet. Sed rerum voluptate id unde officia qui magnam dolorem ut voluptatum recusandae qui molestiae accusamus! Et nulla provident quo vitae porro qui quas facilis eum ipsa eaque vel perspiciatis voluptas aut temporibus accusamus est dolor beatae!",
+                  style: TextStyle(
+                    color: Colors.white.withOpacity(0.7),
+                    fontSize: 16,
+                    letterSpacing: 1.2,
+                  ),
+                ),
+                const SizedBox(height: 30),
+                InkWell(
+                  onTap:() {
+                      Navigator.push(context, MaterialPageRoute(
+                        builder: (context) =>const HomePage(),
+                      )
+                    );
+                  },
+                  child: Ink(
+                    padding: const EdgeInsets.all(15),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      borderRadius: BorderRadius.circular(12),
+                    ),
+                    child: const Icon(
+                      Icons.arrow_forward_ios,
+                      color: Colors.black54,
+                      size: 20,
+                    ),
+                  ),
+                )
               ],
             ),
           ),
