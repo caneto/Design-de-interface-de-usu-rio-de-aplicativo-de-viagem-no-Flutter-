@@ -41,6 +41,27 @@ class HomeAppBar extends StatelessWidget {
                 ),
               )
             ],
+          ),
+          InkWell(
+            onTap: (){},
+            child: Container(
+              padding: const EdgeInsets.all(10),
+              decoration: BoxDecoration(
+                color: Colors.white,
+                boxShadow: const [
+                  BoxShadow(
+                    color: Colors.black26,
+                    blurRadius: 6,
+                  )
+                ],
+                borderRadius: BorderRadius.circular(15),
+              ),  
+              child: const Icon(
+                Icons.search,
+                size: 28,
+              ),
+
+            ),
           )
         ],
       ),

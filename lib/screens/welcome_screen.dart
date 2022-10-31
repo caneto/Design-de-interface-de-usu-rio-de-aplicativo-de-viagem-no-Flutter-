@@ -56,7 +56,7 @@ class WelcomeScreen extends StatelessWidget {
                 InkWell(
                   onTap:() {
                       Navigator.push(context, MaterialPageRoute(
-                        builder: (context) =>const HomePage(),
+                        builder: (context) => HomePage(),
                       )
                     );
                   },
