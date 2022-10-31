@@ -46,6 +46,7 @@ class WelcomeScreen extends StatelessWidget {
                 const SizedBox(height: 2,),
                 Text(
                   "Lorem ipsum dolor sit amet. Sed rerum voluptate id unde officia qui magnam dolorem ut voluptatum recusandae qui molestiae accusamus! Et nulla provident quo vitae porro qui quas facilis eum ipsa eaque vel perspiciatis voluptas aut temporibus accusamus est dolor beatae!",
+                  textAlign: TextAlign.justify,
                   style: TextStyle(
                     color: Colors.white.withOpacity(0.7),
                     fontSize: 16,
