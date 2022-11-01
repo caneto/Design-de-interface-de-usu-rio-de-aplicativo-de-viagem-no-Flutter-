@@ -34,7 +34,7 @@ class HomeAppBar extends StatelessWidget {
             children: const [
               Icon(Icons.location_on, color: Color(0xFFF65959),),
               Text(
-                'New York, USA',
+                'Rio de Janeiro, BR',
                 style: TextStyle(
                   fontSize: 18,
                   fontWeight: FontWeight.w500,

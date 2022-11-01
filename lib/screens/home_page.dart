@@ -5,12 +5,12 @@ import 'package:uideviagem/widgets/home_bottom_bar.dart';
 
 class HomePage extends StatelessWidget {
   var category = [
-    'Best Places',
-    'Most Visited',
-    'Favorites',
-    'New Added',
+    'Melhor Lugares',
+    'Mais visitados',
+    'Favoritos',
+    'Nova Adição',
     'Hotels',
-    'Restaurants'
+    'Restaurantes'
   ];
 
   HomePage({Key? key}) : super(key: key);
@@ -68,7 +68,7 @@ class HomePage extends StatelessWidget {
                                       Container(
                                         alignment: Alignment.bottomLeft,
                                         child: const Text(
-                                          'City Name',
+                                          'Nome da Cidade',
                                           style: TextStyle(
                                             color: Colors.white,
                                             fontSize: 18,
@@ -153,7 +153,7 @@ class HomePage extends StatelessWidget {
                                 mainAxisAlignment:
                                     MainAxisAlignment.spaceBetween,
                                 children: const [
-                                  Text('City Name',
+                                  Text('Nome da Cidade',
                                       style: TextStyle(
                                         fontSize: 20,
                                         fontWeight: FontWeight.w600,

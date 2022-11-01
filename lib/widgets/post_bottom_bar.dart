@@ -26,7 +26,7 @@ class PostBottomBar extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text(
-                      'City name, Country',
+                      'Nome da Cidade, País',
                       style: TextStyle(
                         fontSize: 23,
                         fontWeight: FontWeight.w600,
@@ -155,7 +155,7 @@ class PostBottomBar extends StatelessWidget {
                             ]
                           ),
                         child: const Text(
-                          'Book Now',
+                          'Agende agora',
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 28,
