@@ -8,3 +8,6 @@ Design de interface de usuário de aplicativo de viagem no Flutter
 <h2>🛠️ Funcionalidades e Componentes usados</h2>
 
 - curved_navigation_bar  - 1.0.3
+
+
+<b>Desenvolvido apenas para Android, e iOS.</b> - Testado exclusivamente em Android (Emulador). 
